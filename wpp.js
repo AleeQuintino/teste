@@ -14,8 +14,4 @@ const wppconnect = require('@wppconnect-team/wppconnect');
     puppeteerOptions: { args: puppeteerOptions }
   })
 
-  client.commands = []
-
-  global.changed = []
-
 })();
